@@ -50,10 +50,13 @@
 
 .videoSobre .container{
     display: flex;
+    
+
 }
 
 .videoSobre-video {
     flex-grow: 1;
+    flex-shrink: 2;
 }
 
 .videoSobre-sobre {
@@ -110,5 +113,11 @@
 
     .cabecalhoPrincipal-nav-link-app {
         order: -1;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+        align-items: center;
+        
     }
 }
